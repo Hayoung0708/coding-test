@@ -1,7 +1,7 @@
 function solution(my_string, n) {
     let answer = "";
-    for (let i = 0; i < my_string.length; i++) {
-        answer += my_string[i].repeat(n);
+    for (let i of my_string) {
+        answer += i.repeat(n);
     }
     return answer;
 }
