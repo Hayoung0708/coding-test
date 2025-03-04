@@ -1,12 +1,7 @@
 function solution(absolutes, signs) {
     var answer = 0;
     for (i in absolutes) {
-        if (signs[i]) {
-            answer += absolutes[i];
-        }
-        else {
-            answer -= absolutes[i];
-        }
+        signs[i]? answer += absolutes[i] : answer -= absolutes[i];
     }
     return answer;
 }
