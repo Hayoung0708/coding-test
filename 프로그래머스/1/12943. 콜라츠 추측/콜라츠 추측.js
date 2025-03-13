@@ -1,6 +1,6 @@
 function solution(num) {
     var count = 0;
-    while (num > 1) {
+    while (num !== 1 && count < 501) {
         if (num % 2 === 0) {
             num /= 2;
         }
@@ -8,9 +8,6 @@ function solution(num) {
             num = num * 3 + 1;
         }
         count++;
-        if (count === 500) {
-            return -1;
-        }
     }
-    return count;
+    return count < 500 ? count : -1;
 }
