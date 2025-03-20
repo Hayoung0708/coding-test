@@ -1,3 +1,1 @@
-function solution(s) {
-    return parseInt(s);
-}
+const solution = (s) => parseInt(s)
