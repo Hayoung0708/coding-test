@@ -2,16 +2,11 @@ function solution(s){
     let stack= [];
     
     for (i in s) {
-        if (stack.length === 0) {
-            stack.push(s[i]);
+        if (stack[stack.length - 1] === '(' && s[i] === ')') {
+            stack.pop();
         }
         else {
-            if (stack[stack.length - 1] === '(' && s[i] === ')') {
-                stack.pop();
-            }
-            else {
-                stack.push(s[i]);
-            }
+            stack.push(s[i]);
         }
     }
     
