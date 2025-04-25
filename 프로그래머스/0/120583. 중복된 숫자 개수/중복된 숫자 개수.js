@@ -1,6 +1,6 @@
 function solution(array, n) {
-    var answer = 0;
-    for (i of array) {
+    let answer = 0;
+    for (let i of array) {
         if (i === n) {
             answer++;
         }
