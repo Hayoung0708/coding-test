@@ -1,3 +1,1 @@
-function solution(message) {
-    return message.length * 2;
-}
+const solution = (message) => message.length * 2
