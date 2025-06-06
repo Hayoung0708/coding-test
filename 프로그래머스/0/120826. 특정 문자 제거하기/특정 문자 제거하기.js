@@ -1,4 +1,4 @@
-function solution(my_string, letter) {
+const solution = (my_string, letter) => {
     let answer = "";
     for (let i = 0; i < my_string.length; i++) {
         if (my_string[i] != letter) {
