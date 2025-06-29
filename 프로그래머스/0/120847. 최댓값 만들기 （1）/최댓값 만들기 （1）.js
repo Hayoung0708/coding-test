@@ -1,4 +1,4 @@
-function solution(numbers) {
+const solution = (numbers) => {
     numbers.sort(function (a, b) {
         return b - a;
     });
