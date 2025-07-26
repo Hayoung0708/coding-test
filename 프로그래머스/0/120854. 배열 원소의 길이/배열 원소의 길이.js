@@ -1,4 +1,4 @@
-function solution(strlist) {
+const solution = (strlist) => {
     let answer = [];
     
     for (let str of strlist) {
