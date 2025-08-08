@@ -1,4 +1,4 @@
-function solution(n) {
+const solution = (n) => {
     let answer = [];
     
     for (let i = 1; i <= n; i = i+2) {
