@@ -1,4 +1,4 @@
-function solution(numbers) {
+const solution = (numbers) => {
     for (i in numbers) {
         numbers[i] *= 2;
     }
