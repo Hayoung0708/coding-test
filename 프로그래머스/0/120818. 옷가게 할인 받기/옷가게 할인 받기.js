@@ -1,4 +1,4 @@
-function solution(price) {
+const solution = (price) => {
     if (price >= 500000) {
         return parseInt(price * 0.8);
     }
