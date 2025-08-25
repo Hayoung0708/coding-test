@@ -1,4 +1,4 @@
-function solution(n_str) {
+const solution = (n_str) => {
     let index = 0;
     
     for (i in n_str) {
