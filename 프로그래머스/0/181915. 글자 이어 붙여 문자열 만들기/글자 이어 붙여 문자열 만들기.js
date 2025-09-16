@@ -1,7 +1,1 @@
-const solution = (my_string, index_list) => {
-    let answer = '';
-    
-    index_list.map((i) => answer += my_string[i])
-    
-    return answer;
-}
+const solution = (my_string, index_list) => index_list.map((i) => my_string[i]).join('')
