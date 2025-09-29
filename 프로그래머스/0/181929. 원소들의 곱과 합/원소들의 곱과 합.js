@@ -1,7 +1,7 @@
 const solution = (num_list) => {
-    let mul = 1, add = 0;
+    let mul = 1, sum = 0;
     
-    num_list.map((i) => { mul *= i; add += i; });
+    num_list.map((i) => { mul *= i; sum += i; });
     
-    return mul < add**2 ? 1 : 0;
+    return mul < sum**2 ? 1 : 0;
 }
