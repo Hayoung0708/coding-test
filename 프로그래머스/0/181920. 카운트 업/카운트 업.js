@@ -1,0 +1,1 @@
+const solution = (start_num, end_num) => [...Array(end_num - start_num + 1)].map((_, i) => start_num + i);
