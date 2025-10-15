@@ -1,0 +1,1 @@
+const solution = (myString) => myString.split("").map((i) => i.charCodeAt() < 108 ? "l" : i).join("")
