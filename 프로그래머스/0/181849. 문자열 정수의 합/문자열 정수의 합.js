@@ -1,0 +1,1 @@
+const solution = (num_str) => num_str.split("").reduce((sum, num) => sum += +num, 0)
