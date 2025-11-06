@@ -1,0 +1,1 @@
+const solution = (myString, pat) => +myString.split('').map((c) => c === "A" ? "B" : "A").join('').includes(pat)
