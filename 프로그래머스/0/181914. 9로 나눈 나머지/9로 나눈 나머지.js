@@ -1,0 +1,1 @@
+const solution = (number) => number.split("").reduce((sum, n) => sum + +n, 0) % 9;
